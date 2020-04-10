@@ -1,9 +1,11 @@
 The learning goals of this project are:
-• Understand and implement common NLP evaluation methods - precision, recall and F1 measure.
-• Employ experimental design practices in NLP. Splitting the corpus into training/development/test sets, implementing baselines to determine how difficult the task is, and experimenting with features and models.
-• Getting acquainted with sklearn.
-• Learning about basic text classification algorithms.
-• Learning about vector semantics and getting familiarity with word embeddings.
+<ul>
+<li>Understand and implement common NLP evaluation methods - precision, recall and F1 measure.</li>
+<li>Employ experimental design practices in NLP. Splitting the corpus into training/development/test sets, implementing baselines to determine how difficult the task is, and experimenting with features and models.
+<li>Getting acquainted with sklearn.
+<li>Learning about basic text classification algorithms.
+<li>Learning about vector semantics and getting familiarity with word embeddings.
+</ul>
 
 
 Problem #1: We need functions to assess and evaluate the performance of our models. We will implement those first.
@@ -19,7 +21,7 @@ Problem #3: Review Length Baseline. We will create baseline to evaluate our mode
 
 Problem #4: Implementing the Naïve Bayes classifier.
 
-Problem #5: 
+Problem #5: Implementing the Multinominal Naive Bayes classifier.
 
 Problem #6: Performance of the different models.
 
@@ -40,7 +42,9 @@ The groups of relations are delimited by lines starting with a colon (:) and you
 nationality-adjective. Word Embeddings “Pretrained” word embeddings are word embeddings that are already constructed in advance of your NLP project (whether your project is a neural language model, a text classifier, or a class assignment). The advantage of pretraining is that it simplifies learning your model, because the embedding parameters are fixed in advance. The disadvantage is that, if your embeddings happen to be bad for your task, you’re stuck with them. 
 
 Here are some popular choices:
-• [Word2vec](https://code.google.com/archive/p/word2vec/)
-• [GloVe](http://nlp.stanford.edu/projects/glove/)
-• [Dependency-based. embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-wordembeddings/)
+<ul>
+<li>[Word2vec](https://code.google.com/archive/p/word2vec/)
+<li>[GloVe](http://nlp.stanford.edu/projects/glove/)
+<li>[Dependency-based. embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-wordembeddings/)
+</ul>
 <br>
