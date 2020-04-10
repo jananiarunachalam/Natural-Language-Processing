@@ -1,3 +1,4 @@
+<br>
 The learning goals of this project are:
 <ul>
 <li>Understand and implement common NLP evaluation methods - precision, recall and F1 measure.</li>
@@ -6,6 +7,7 @@ The learning goals of this project are:
 <li>Learning about basic text classification algorithms.
 <li>Learning about vector semantics and getting familiarity with word embeddings.
 </ul>
+
 
 
 Problem #1: We need functions to assess and evaluate the performance of our models. We will implement those first.
