@@ -9,7 +9,6 @@ The learning goals of this project are:
 </ul>
 
 
-
 Problem #1: We need functions to assess and evaluate the performance of our models. We will implement those first.
 Created functions to calculate precision, recall and f-measure without using sklearn.
 
@@ -45,8 +44,16 @@ nationality-adjective. Word Embeddings “Pretrained” word embeddings are word
 
 Here are some popular choices:
 <ul>
-<li>[Word2vec](https://code.google.com/archive/p/word2vec/)
-<li>[GloVe](http://nlp.stanford.edu/projects/glove/)
-<li>[Dependency-based. embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-wordembeddings/)
+  <li> Word2vec: https://code.google.com/archive/p/word2vec/
+<li> GloVe: http://nlp.stanford.edu/projects/glove/
+<li> Dependency-based. embeddings: https://levyomer.wordpress.com/2014/04/25/dependency-based-wordembeddings/
 </ul>
+<br>
+
+Problem #7: Running analogy test. Implementing the analogy prediction method and comparing their accuracies on the eight analogy tasks listed above. 
+
+Problem #8: One known problem with word embeddings is that antonyms often have similar embeddings. You can verify this by searching for the top 10 most similar words to a few verbs like increase or enter that have clear antonyms (e.g., decrease
+and exit, respectively) using the cosine similarity. Discussing why embeddings might have this tendency.
+
+Problem #9: Designing two new types of analogy tests that are not part of Mikolov’s analogy dataset. Reporting how well the two sets of embeddings perform on your test questions.
 <br>
